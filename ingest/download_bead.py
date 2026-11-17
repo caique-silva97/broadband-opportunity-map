@@ -1,4 +1,4 @@
-# Download the BEAD Final Proposal files from BroadbandExpanded into data/raw.
+"""Download the BEAD Final Proposal files from BroadbandExpanded into data/raw."""
 
 from datetime import date
 from pathlib import Path
