@@ -41,7 +41,7 @@ def download_file(url: str, destination: Path) -> int:
 
 if __name__ == "__main__":
     run_folder = make_run_folder()
-    for table in [TABLES]:  # test with one file first; switch to TABLES once it works
+    for table in TABLES:  # test with one file first; switch to TABLES once it works
         url = file_url(table)
         destination = run_folder / f"{table}_{RELEASE}.parquet"
         print(f"Downloading {url}")
